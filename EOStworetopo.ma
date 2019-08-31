@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: EOStworetopo.ma
-//Last modified: Fri, Aug 30, 2019 06:13:37 PM
+//Last modified: Fri, Aug 30, 2019 06:14:26 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "3E52DCFA-4E92-3F15-1EE1-6C84EA08B850";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 303.65752450792348 109.43433360790544 264.54832433269024 ;
-	setAttr ".r" -type "double3" 185.66164726932877 241.00000000008842 0 ;
+	setAttr ".t" -type "double3" 374.64212057678378 60.226749541518714 561.02373203885713 ;
+	setAttr ".r" -type "double3" 179.66164726932564 222.20000000007786 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "9AE5736D-4120-9BE3-DB80-2286E1EC1C9C";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 457.01849866962596;
+	setAttr ".coi" 697.85007808234263;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
